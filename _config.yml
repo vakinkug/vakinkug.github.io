@@ -265,8 +265,6 @@ exclude:
   - screenshot.png
   - docs/
 
-theme: jekyll-theme-architect
-
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
