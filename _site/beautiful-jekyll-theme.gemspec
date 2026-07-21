@@ -20,13 +20,12 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "bigdecimal", ">= 4.1.2"
   spec.add_runtime_dependency "jekyll", ">= 3.9.3"
   spec.add_runtime_dependency "jekyll-paginate", ">= 1.1"
-    spec.add_runtime_dependency "jekyll-redirect-from", ">= 0.16.0"
-  spec.add_runtime_dependency "jekyll-remote-theme", ">= 0.5.1"
+  spec.add_runtime_dependency 'jekyll-remote-theme', '>= 0.5.1'
   spec.add_runtime_dependency "jekyll-sitemap", ">= 1.4"
   spec.add_runtime_dependency "kramdown-parser-gfm", ">= 1.1"
   spec.add_runtime_dependency "kramdown", ">= 2.3.2"
   spec.add_runtime_dependency "tzinfo", ">= 2.0.6"
-  spec.add_runtime_dependency "tzinfo-data", ">= 1.2026.3"
+  spec.add_runtime_dependency 'tzinfo-data', '>= 1.2026.3'
   spec.add_runtime_dependency "webrick", ">= 1.8"
 
   spec.add_development_dependency "bundler", ">= 4.0.16"
