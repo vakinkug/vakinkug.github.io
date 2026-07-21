@@ -31,7 +31,9 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : []
+plugins             : [
+- jekyll-remote-theme
+]
 
 # Conversion
 markdown            : kramdown
@@ -71,3 +73,11 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+
+# Added Architect theme, retrieved from https://github.com/pages-themes/architect
+
+remote_theme: pages-themes/architect@v0.2.0
+title: Travis (Bisola) Akinkugbe&rsquo;s Portfolio
+description: A website to host a portfolio of my various projects
+# show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+# google_analytics: [Your Google Analytics tracking ID]
